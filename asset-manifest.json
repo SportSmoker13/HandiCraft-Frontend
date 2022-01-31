@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fff71806.css",
+    "main.js": "/static/js/main.d85a4ac4.js",
+    "static/js/787.4bc5b489.chunk.js": "/static/js/787.4bc5b489.chunk.js",
+    "static/media/slider-image-3.png": "/static/media/slider-image-3.e37d525a7632b85e0f3d.png",
+    "static/media/product_01.png": "/static/media/product_01.1b66d881dc4a8f938ead.png",
+    "static/media/banner-02.png": "/static/media/banner-02.c4ab04d952e64f314b2d.png",
+    "static/media/banner-05.png": "/static/media/banner-05.e662b40d98775989b945.png",
+    "static/media/slider-right-ribbon-handicraft.png": "/static/media/slider-right-ribbon-handicraft.7027afbab2d7dce24e9e.png",
+    "static/media/slider-left-ribbon-handicraft.png": "/static/media/slider-left-ribbon-handicraft.f8b1db0a2588b3e90033.png",
+    "static/media/Home_Decoration.png": "/static/media/Home_Decoration.4168f2516fbc012cf2d1.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "static/media/owl.video.play.html": "/static/media/owl.video.play.82ca122368af2e24d66b.html",
+    "main.fff71806.css.map": "/static/css/main.fff71806.css.map",
+    "main.d85a4ac4.js.map": "/static/js/main.d85a4ac4.js.map",
+    "787.4bc5b489.chunk.js.map": "/static/js/787.4bc5b489.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fff71806.css",
+    "static/js/main.d85a4ac4.js"
+  ]
+}
