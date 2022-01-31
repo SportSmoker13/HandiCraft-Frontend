@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillGoogleCircle } from 'react-icons/ai';
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 function SignUp() {
   const [firtsName, setFirtsName] = useState();
@@ -12,18 +12,24 @@ function SignUp() {
   const [userName, setUserName] = useState();
   const [password, setPassword] = useState();
   const [confirmPassword, setConfirmPassword] = useState();
+  const  navigate = useNavigate()
 
   const handleSubmit = (event) => {
     event.preventDefault();
     if (password === confirmPassword) {
-      const res = axios.post("http://localhost:5000/auth/signin", {
-        firtsName: firtsName,
+      axios.post("http://localhost:5000/api/user", {
+        firstName: firtsName,
         lastName: lastName,
         email: email,
-        userName: userName,
+        username: userName,
         password: password,
-      });
-      // <Redirect to="/home" />
+      }).then((response)=>{
+        if(response.status === 200)  {
+          localStorage.setItem('logStatus', true);
+          navigate("/home")
+      }
+      })
+      
     } else {
         console.log("Password Do Not Match!!!")
     }
